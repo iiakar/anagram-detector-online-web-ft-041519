@@ -1,11 +1,11 @@
-class Song 
+class Anagram 
 
 	@@all = [] 
 
-	attr_accessor :name 
+	attr_accessor :anagram 
 
-def initialize (name) 
+def initialize (anagram) 
 
-	@name = name 
+	@anagram = anagram 
 	end 
 end
